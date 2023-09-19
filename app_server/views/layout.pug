@@ -1,5 +1,5 @@
 doctype html
-html
+html(ng-app='loc8rApp')
   head
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title= title
@@ -28,5 +28,7 @@ html
 
     script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js')
+    script(src='/angular/angular.min.js')
+    script(src='/angular/loc8rApp.js')
     script(src='/javascripts/jquery-1.11.1.min.js')
     script(src='/javascripts/bootstrap.min.js')
